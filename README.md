@@ -1,8 +1,8 @@
 # LizardType 🦎⌨️
 
-[![CI](https://github.com/htlin/LizardType/actions/workflows/ci.yml/badge.svg)](https://github.com/htlin/LizardType/actions/workflows/ci.yml)
-[![Release](https://github.com/htlin/LizardType/actions/workflows/release.yml/badge.svg)](https://github.com/htlin/LizardType/actions/workflows/release.yml)
-[![Latest release](https://img.shields.io/github/v/release/htlin/LizardType?sort=semver)](https://github.com/htlin/LizardType/releases/latest)
+[![CI](https://github.com/htlin222/LizardType/actions/workflows/ci.yml/badge.svg)](https://github.com/htlin222/LizardType/actions/workflows/ci.yml)
+[![Release](https://github.com/htlin222/LizardType/actions/workflows/release.yml/badge.svg)](https://github.com/htlin222/LizardType/actions/workflows/release.yml)
+[![Latest release](https://img.shields.io/github/v/release/htlin222/LizardType?sort=semver)](https://github.com/htlin222/LizardType/releases/latest)
 ![Platform](https://img.shields.io/badge/macOS-Apple%20Silicon-blue)
 
 A native macOS push-to-talk dictation app. Hold a key, speak, release — your
@@ -31,7 +31,7 @@ inherits your session. `/api/auth/session` provides the bearer token the
 ## Download
 
 Grab the latest **`.dmg`** from the
-[Releases page](https://github.com/htlin/LizardType/releases/latest), open it, and
+[Releases page](https://github.com/htlin222/LizardType/releases/latest), open it, and
 drag **LizardType** to Applications.
 
 The app is **ad-hoc signed** (no Apple Developer account), so Gatekeeper blocks the
@@ -113,3 +113,8 @@ Sources/
 spike/transcribe_spike.swift the standalone proof that validated the bridge
 docs/plans/                  design doc
 ```
+
+## License
+
+[MIT](LICENSE) © Hsiehting Lin. The default cleanup prompt is adapted from
+[ZeroType](https://github.com/nick1ee/ZeroType) (MIT).
